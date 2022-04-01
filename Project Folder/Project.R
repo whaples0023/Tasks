@@ -4,4 +4,4 @@ head(Data2)
 plot(Data2$ll, Data2$Fa, xlab="Recessive Allele Frequency in Offspring", ylab="Ancestoral Inbreeding Frequency", pch=16)
 one.way <- aov(ll ~ Fa, data = Data2)
 abline(lm(Data2$Fa~Data2$ll)) 
-summary(one.way)
+summary(one.way)cd
